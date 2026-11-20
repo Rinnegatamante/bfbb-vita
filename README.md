@@ -1,6 +1,6 @@
 # Battle for Bikini Bottom Vita
 
-<img src="shot1.png"></img><br>
+<img src="shot1.jpg"></img><br>
 
 Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilation](https://github.com/zcanann/bfbb) of the Gamecube version.
 
