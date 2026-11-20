@@ -11,6 +11,7 @@ Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilat
 - Optional 30 FPS lock (Defaults off).
 - Widescreen support (Defaults to On).
 - Ability to invert X and Y axis for camera.
+- PS2 glyphs instead of Gamecube ones.
 
 ## Special Controls
 
