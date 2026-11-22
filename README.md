@@ -12,6 +12,7 @@ Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilat
 - Widescreen support (Defaults to On).
 - Ability to invert X and Y axis for camera.
 - PS2 glyphs instead of Gamecube ones.
+- Optional PostFX effects (CRT, CRT Bleeding, FXAA, Greyscale, LCD 3x, Negative, Sepia, Sharp Bilinear Grid, Sharp Bilinear Scanlines and Vignette).
 
 ## Special Controls
 
@@ -26,6 +27,17 @@ Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilat
 - If you don't have it already, install [Python 3.10 or higher](https://www.python.org/downloads/windows/).
 - Open a command line in the same folder where you extracted the zip and run: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\prepare_data.ps1 -Source "bfbb.iso" -FFmpeg "ffmpeg.exe"`
 - Place the whole content of `DataForVita\bfbb` in `ux0:data/bfbb`.
+
+## Changelog
+
+### v.1.1
+
+- Improved overall CPU usage (reduction of up to 20% of the workload, resulting in more stable framerate).
+- Optimized the GPU workload of the Bubble Bounce move. Now it won't cause anymore a massive framedrop.
+- Fixed a bug causing controls mapping scheme to change when a tutorial popup is on screen.
+- Added optional PostFX effects (CRT, CRT Bleeding, FXAA, Greyscale, LCD 3x, Negative, Sepia, Sharp Bilinear Grid, Sharp Bilinear Scanlines and Vignette).
+- Optimized the Mermalair monitors effect, now framerate will be more stable in the area.
+- Fixed a bug causing Mermalair area to render in 4:3 even if widescreen was enabled.
 
 ## Credits
 
