@@ -12,7 +12,7 @@ Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilat
 - Widescreen support (Defaults to On).
 - Ability to invert X and Y axis for camera.
 - PS2 glyphs instead of Gamecube ones.
-- Optional PostFX effects (CRT, CRT Bleeding, FXAA, Greyscale, LCD 3x, Negative, Sepia, Sharp Bilinear Grid, Sharp Bilinear Scanlines and Vignette).
+- Optional PostFX effects (Bloom, CRT, CRT Bleeding, FXAA, Greyscale, LCD 3x, Negative, Sepia, Sharp Bilinear Grid, Sharp Bilinear Scanlines and Vignette).
 
 ## Special Controls
 
@@ -29,6 +29,14 @@ Port of Spongebob: Battle for Bikini Bottom for PSVita based off [the decompilat
 - Place the whole content of `DataForVita\bfbb` in `ux0:data/bfbb`.
 
 ## Changelog
+
+### v.1.2
+
+- Added a new PostFX effect (Bloom) that mimics the bloom effect present in the Xbox version of the game.
+- Fixed a bug causing left and right audio channels to be swapped.
+- Fixed a seam on top of the Sea Needle east door.
+- Fixed a bug causing shadows to be projected on top of bus stop light cones.
+- Fixed a bug causing cyan borders to be visible on some grass patches in Jellyfish Fields.
 
 ### v.1.1
 
